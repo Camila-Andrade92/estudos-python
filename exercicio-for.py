@@ -1,6 +1,6 @@
 #Para somar os números:
-s=0
+soma=0
 for c in range(0,4):
-    n=int(input("Escreva um número: "))
-    s+=n
+    numero=int(input("Escreva um número: "))
+    soma+=numero
 print("O somatório dos números digitados foi {}.".format(s))
